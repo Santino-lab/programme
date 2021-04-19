@@ -1,0 +1,15 @@
+
+notenliste = []
+notenliste.append(1)
+notenliste.append(2)
+notenliste.append(5)
+notenliste.append(4)
+notenliste.append(6)
+print (notenliste)
+notenliste.remove(2)
+print (notenliste)
+notenliste.pop (1)
+print (notenliste)
+länge=len(notenliste)
+print (länge)
+print (notenliste.index(4))
