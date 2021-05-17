@@ -86,9 +86,10 @@ print (sortieren (liste))"""
 import random
 
 for i in range (10000):
-    liste.append (random)
-    liste = random.randint (1,10000)
+    liste.append (random.randint(1,10000))
+    
 print (liste)
+
 
 
 
