@@ -45,7 +45,7 @@ for zahl in liste :
 
 print (zweitgröstezahl)
 
-print (gröstezahl)"""
+print (gröstezahl)
 
 
 
@@ -82,6 +82,16 @@ def sortieren (liste) :
     
     return sortierte_liste 
     
-print (sortieren (liste))
+print (sortieren (liste))"""
+import random
+
+for i in range (1000000000000000):
+    liste = random.randint (1,10000)
+print (liste)
+
+
+
+
+
 
 
