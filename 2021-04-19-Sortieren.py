@@ -80,8 +80,7 @@ def sortieren (liste) :
     
         liste . remove (min)
     
-    return sortierte_liste 
-    
+    return sortierte_liste w
 print (sortieren (liste))"""
 import random
 
@@ -91,6 +90,7 @@ for i in range (10000):
 print (liste)
 
 
+#hausaufgabe: ertellen liste mit variable zufall mit 1000000 zufallszahlen
 
 
 
