@@ -1,6 +1,6 @@
 import random
 
-for i in range (10000):
-    liste = random.randint (1,10000)
+for i in range (10):
+    liste = random.randint (1,10)
 print (liste)
 
