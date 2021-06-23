@@ -1,7 +1,7 @@
 
-"""liste = [1,2,3,4,5,6,7,8,9,10]
+liste = [1,2,3,4,5,6,7,8,9,10]
 
-kleinstezahl=liste[0]
+"""kleinstezahl=liste[0]
 
 for zahl in liste :
     
