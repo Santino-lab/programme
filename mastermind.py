@@ -19,7 +19,7 @@ farbe4 = random.choice (farben)
 kombination.append(farbe4)
 farben.remove (farbe4)
 farbe5 = random.choice (farben)
-kombination.append(farbe5)
+kombination.append(farbe5) 
 farben.remove (farbe5)
 
 
