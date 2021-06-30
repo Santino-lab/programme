@@ -22,5 +22,10 @@ farbe5 = random.choice (farben)
 kombination.append(farbe5) 
 farben.remove (farbe5)
 
+### wir fragen den spieler nach seiner wahl ###
+benutzerwahl = input ("welche kombination von farben willst du wählen ? ")
+benutzerwahl_liste = benutzerwahl.split()
+print (benutzerwahl_liste)
 
-print (kombination) 
+
+##was macht split ? 
