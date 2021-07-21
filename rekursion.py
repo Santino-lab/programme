@@ -13,84 +13,33 @@ def fibonacci(n):
 
 
 print(fibonacci(333))
-"""
-
-
-
-
-
-
 
 
 
 
 
 def erstes (liste):
-    retern (liste) [0]
-
-erstes ([4,2,8])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return (liste) [0]+6 
+
+erstes ([4,2,8])                 
+"""
+### bekommt eine  zahl und gib positiv aus falls sie positiv ist und andersherum ! ###
+def vorzeichen (n):
+    if n > 0 :
+        print ("positiv")
+    elif n < 0:
+        print ("negativ")
+
+vorzeichen (-0)
+
+def fakultät_it (n):
+    pass
+
+def fakultät_rek(n):
+    if n == 0:
+        return 1
+    fakultät_vorgänger = fakultät_rek (n - 1)
+    endergebnis = fakultät_vorgänger * n
+    return endergebnis
+print (fakultät_rek(998))
+ 
