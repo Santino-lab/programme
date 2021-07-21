@@ -22,7 +22,7 @@ def erstes (liste):
     return (liste) [0]+6 
 
 erstes ([4,2,8])                 
-"""
+
 ### bekommt eine  zahl und gib positiv aus falls sie positiv ist und andersherum ! ###
 def vorzeichen (n):
     if n > 0 :
@@ -33,7 +33,12 @@ def vorzeichen (n):
 vorzeichen (-0)
 
 def fakultät_it (n):
-    pass
+    endergebnis = ?
+    for in in range (n):
+        if fakultät_rek :
+            fakultät_vorgänger * n
+    return endergebnis
+
 
 def fakultät_rek(n):
     if n == 0:
@@ -42,4 +47,8 @@ def fakultät_rek(n):
     endergebnis = fakultät_vorgänger * n
     return endergebnis
 print (fakultät_rek(998))
- 
+"""
+
+def einsbishundert (1+i)
+    for i in range (101)
+        
