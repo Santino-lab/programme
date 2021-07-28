@@ -17,7 +17,6 @@ print(fibonacci(333))
 
 
 
-
 def erstes (liste):
     return (liste) [0]+6 
 
@@ -49,6 +48,24 @@ def fakultät_rek(n):
 print (fakultät_rek(998))
 """
 
-def einsbishundert (1+i)
-    for i in range (101)
-        
+def einsbisn (n):
+    endergebnis = 0
+    for i in range (1,n +1):
+        endergebnis = endergebnis * 1
+    return endergebnis
+print (einsbisn())
+
+def einsbisn2 (n):
+    endergebnis = 1
+    for i in range (1,n + 1):
+        endergebnis = endergebnis * i
+    return endergebnis
+print (einsbisn2())
+
+
+
+
+
+
+
+    
